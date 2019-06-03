@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="text" scope="locale">
+            <name>random_slogan</name>
+            <label lang="de">Dein eigener Slogan</label>
+            <label lang="en">Your own slogan</label>
+            <value>The world is fun!</value>
+            <description>Input: random text!</description>
+        </element>
+    </elements>
+</config>
